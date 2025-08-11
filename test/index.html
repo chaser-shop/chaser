@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Каталог рідин для POD-систем</title>
+  <!-- вставити ваші <link> і <style> тут (той самий дизайн) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    /* вставити весь ваш CSS тут — НЕ міняємо дизайн */
+    /* ... (вставити весь CSS з твого початкового файлу) ... */
+  </style>
+</head>
+<body>
+<header>
+  <h1>Chaser Catalog</h1>
+  <p>Усі рідини не є готовими рідинами для використання!</p>
+</header>
+
+<div class="container" id="catalog-container">
+  <!-- Тут створюються секції динамічно -->
+</div>
+
+<footer>
+  © 2025 Каталог рідин для POD-систем. Усі права захищено.
+</footer>
+
+<script>
+  // Завантажуємо продукти і рендеримо тільки available: true
+  async function loadProducts() {
+    try {
+      const res = await fetch('/data/products.json', {cache: "no-store"});
+      const products = await res.json();
+
+      const container = document.getElementById('catalog-container');
+
+      // Групуємо за category
+      const groups = {};
+      products.forEach(p => {
+        if (!p.available) return; // ПРОПУСКАЄМО недоступні
+        if (!groups[p.category]) groups[p.category] = [];
+        groups[p.category].push(p);
+      });
+
+      // Очистити контейнер
+      container.innerHTML = '';
+
+      for (const [category, items] of Object.entries(groups)) {
+        const section = document.createElement('div');
+        section.className = 'section';
+
+        const h2 = document.createElement('h2');
+        h2.textContent = category;
+        section.appendChild(h2);
+
+        const grid = document.createElement('div');
+        grid.className = 'grid';
+
+        items.forEach(item => {
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.innerHTML = `
+            <img src="${item.img}" alt="${item.name}">
+            <h3>${item.name}</h3>
+            <p>${item.description || ''}</p>
+            <div class="price">${item.price}₴</div>
+          `;
+          grid.appendChild(card);
+        });
+
+        section.appendChild(grid);
+        container.appendChild(section);
+      }
+
+    } catch (err) {
+      console.error('Не вдалося завантажити продукти:', err);
+      document.getElementById('catalog-container').innerHTML = '<p style="color:#f88">Помилка завантаження каталогу.</p>';
+    }
+  }
+
+  loadProducts();
+</script>
+</body>
+</html>

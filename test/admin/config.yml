@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "products"
+    label: "Products"
+    delete: false
+    files:
+      - file: "data/products.json"
+        label: "Products JSON"
+        name: "products_json"
+        fields:
+          - {label: "Products JSON (не міняти вручну, редагуй через форму)", name: "body", widget: "json", default: []}

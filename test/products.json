@@ -1,0 +1,214 @@
+[
+  {
+    "id": "chaser-squid-jasmine-peach",
+    "category": "Chaser Squid Game 30ml",
+    "name": "Жасмин Персик (Jasmine Peach)",
+    "description": "Chaser Squid Game 30ml",
+    "img": "https://cdn.kalyancity.in.ua/products/images/chaser-squid-game-jasmine-peach-30ml-50mg.png?width=520",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "chaser-squid-aloe-mint",
+    "category": "Chaser Squid Game 30ml",
+    "name": "Алоя та м'ята (Aloe Mint)",
+    "description": "Chaser Squid Game 30ml",
+    "img": "https://chaser.com.ua/content/images/29/1800x1800l80mc0/nabir-chaser-squid-game-aloe-mint-30-ml-30-mh-86945283153301.webp",
+    "price": 350,
+    "available": true
+  },
+
+  {
+    "id": "black-bubblegum",
+    "category": "Chaser BLACK ULTRA 30ml",
+    "name": "Bubblegum (Жувальна гумка)",
+    "description": "Chaser BLACK ULTRA 30ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/02/chaser-black-kit-bubblegum-30-ml-1.jpg",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "black-blackberry-sour-raspberry",
+    "category": "Chaser BLACK ULTRA 30ml",
+    "name": "Ожина, кисла малина. (Blackberry Sour Raspberry)",
+    "description": "Chaser BLACK ULTRA 30ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/02/chaser-black-kit-blackberry-sour-raspberry-30-ml-1.jpg",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "black-blackcurrant-rose",
+    "category": "Chaser BLACK ULTRA 30ml",
+    "name": "Чорна смородина, троянда. (Blackcurrant Rose)",
+    "description": "Chaser BLACK ULTRA 30ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2025/05/chaser-black-kit-blackcurrant-rose-30-ml.jpg",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "black-jasmine-raz-tea",
+    "category": "Chaser BLACK ULTRA 30ml",
+    "name": "Чай з жасмином та малиною. (Jasmine Raz Tea)",
+    "description": "Chaser BLACK ULTRA 30ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2025/07/chaser-black-kit-jasmine-raz-tea-30-ml.jpg",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "black-forest-mix",
+    "category": "Chaser BLACK ULTRA 30ml",
+    "name": "Чорниця, смородина, малина.(Forest mix)",
+    "description": "Chaser BLACK ULTRA 30ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/02/chaser-black-kit-forest-mix-30-ml-1-1.jpg",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "black-plum-lime-sour",
+    "category": "Chaser BLACK ULTRA 30ml",
+    "name": "Слива Лайм Кислинка.(Plum Lime Sour)",
+    "description": "Chaser BLACK ULTRA 30ml",
+    "img": "https://tipok.store/sites/default/files/styles/1920x1080m/public/product_images/plum-lime-sour.jpg.webp?itok=RN2zI8cU",
+    "price": 350,
+    "available": true
+  },
+
+  {
+    "id": "luxe-vitamin",
+    "category": "Chaser LUXE ULTRA 30ml",
+    "name": "Фруктовий мікс.(Vitamin)",
+    "description": "Chaser LUX ULTRA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/02/chaser-lux-kit-vitamin-30-ml-1.jpg",
+    "price": 400,
+    "available": true
+  },
+  {
+    "id": "luxe-blueberry-mint",
+    "category": "Chaser LUXE ULTRA 30ml",
+    "name": "Лохина М'ята(Blueberry Mint)",
+    "description": "Chaser LUX ULTRA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/02/chaser-lux-kit-blueberry-mint-30-ml-1.jpg",
+    "price": 400,
+    "available": true
+  },
+  {
+    "id": "luxe-blackberry-pink-guava",
+    "category": "Chaser LUXE ULTRA 30ml",
+    "name": "Ожина Рожева Гуава(Blackberry Pink Guava)",
+    "description": "Chaser LUX ULTRA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2025/06/chaser-lux-kit-blackberry-pink_guava-30-ml.jpg",
+    "price": 400,
+    "available": true
+  },
+  {
+    "id": "luxe-sangria",
+    "category": "Chaser LUXE ULTRA 30ml",
+    "name": "Апельсин Яблуко(Sangria)",
+    "description": "Chaser LUX ULTRA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/02/chaser-lux-kit-sangria-30-ml-2.jpg",
+    "price": 400,
+    "available": true
+  },
+  {
+    "id": "luxe-coconut-melon",
+    "category": "Chaser LUXE ULTRA 30ml",
+    "name": "Кокос Диня(Coconut Melon)",
+    "description": "Chaser LUX ULTRA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/02/chaser-lux-kit-coconut-melon-30-ml-1-768x768.jpg.webp",
+    "price": 400,
+    "available": true
+  },
+  {
+    "id": "luxe-energetic",
+    "category": "Chaser LUXE ULTRA 30ml",
+    "name": "Енергетик(Energetic)",
+    "description": "Chaser LUX ULTRA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/02/chaser-lux-kit-energetic-30-ml-1.jpg.webp",
+    "price": 400,
+    "available": true
+  },
+  {
+    "id": "luxe-peach-yogurt",
+    "category": "Chaser LUXE ULTRA 30ml",
+    "name": "Персиковий йогурт(Peach Yogurt)",
+    "description": "Chaser LUX ULTRA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2025/06/chaser-lux-kit-peach-yogurt-30-ml.jpg",
+    "price": 400,
+    "available": true
+  },
+
+  {
+    "id": "mix-guava-peach",
+    "category": "Chaser MIX ULTRA 30ml",
+    "name": "Гуава Персик(Guava Peach)",
+    "description": "Chaser MIX ULTA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/05/chaser-mix-kit-guava-persyk-30-1.jpg",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "mix-blackberry-jam",
+    "category": "Chaser MIX ULTRA 30ml",
+    "name": "Ожиновий джем(BlackBerry Jam)",
+    "description": "Chaser MIX ULTA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/05/chaser-mix-kit-ozhynovyj-dzhem-30-1.jpg",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "mix-strawberry-banana",
+    "category": "Chaser MIX ULTRA 30ml",
+    "name": "Полуниця банан(Strawberry Banana)",
+    "description": "Chaser MIX ULTA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/05/chaser-mix-kit-polunyczya-banan-30-1.jpg",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "mix-strawberry-grape",
+    "category": "Chaser MIX ULTRA 30ml",
+    "name": "Полуниця Виноград(Strawberry Grape)",
+    "description": "Chaser MIX ULTA 30 ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/05/chaser-mix-kit-polunyczya-vynograd-30-1.jpg",
+    "price": 350,
+    "available": true
+  },
+
+  {
+    "id": "limit-tung-tung",
+    "category": "Chaser Limitini Editini 30ml",
+    "name": "Ягоди та хвоя.(Tung Tung Tung Sahur)",
+    "description": "Chaser Limitini Editini 30ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2025/07/chaser-le-tung-tung-tung-sahur-30ml.jpg",
+    "price": 350,
+    "available": true
+  },
+
+  {
+    "id": "forpods-peach",
+    "category": "Chaser For Pods 30ml",
+    "name": "Персик.(Peach)",
+    "description": "Chaser For Pods 30ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2024/10/chaser-for-pods-kit-persyk-30ml-1.jpg",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "forpods-yellow-dragonfruit",
+    "category": "Chaser For Pods 30ml",
+    "name": "Жовтий Драгонфрут.(Yellow Dragonfruit)",
+    "description": "Chaser For Pods 30ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2025/05/chaser-for-pods-kit-zhovtyj-dragonfrut-30ml.jpg",
+    "price": 350,
+    "available": true
+  },
+  {
+    "id": "forpods-yellow-raspberry",
+    "category": "Chaser For Pods 30ml",
+    "name": "Жовта Малина.(Yellow rasberry)",
+    "description": "Chaser For Pods 30ml",
+    "img": "https://vapehamster.com.ua/wp-content/uploads/2025/05/chaser-for-pods-kit-zhovta-malyna-30ml.jpg",
+    "price": 350,
+    "available": true
+  }
+]

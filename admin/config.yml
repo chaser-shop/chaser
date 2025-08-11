@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "catalog"
+    label: "Каталог"
+    files:
+      - file: "catalog.json"
+        label: "Смаки (catalog.json)"
+        name: "catalog"
+        format: "json"
+        fields:
+          - { label: "Категорії", name: "categories", widget: "list", fields: [
+              { label: "Назва категорії", name: "title", widget: "string" },
+              { label: "Смаки (items)", name: "items", widget: "list", fields: [
+                  { label: "Назва", name: "name", widget: "string" },
+                  { label: "Опис", name: "desc", widget: "string" },
+                  { label: "Ціна", name: "price", widget: "string" },
+                  { label: "Картинка", name: "image", widget: "image" }
+                ]
+              }
+            ]
+          }
